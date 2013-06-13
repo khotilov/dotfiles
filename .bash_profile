@@ -79,7 +79,7 @@ fi
 ### CMSSW
 
 # cmslpc.fnal.gov
-if [[ `hostname -s` = cmslcp* ]]
+if [[ `hostname -s` = cmslpc* ]]
 then
     source /uscmst1/prod/sw/cms/shrc uaf
     source /uscmst1/prod/grid/gLite_SL5.sh
