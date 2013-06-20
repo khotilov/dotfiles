@@ -53,7 +53,7 @@ PROMPT_COMMAND='history -a'
 set -o notify
 
 # pager, e.g., for man
-export PAGER='less'
+export PAGER='less -r'
 #export PAGER='less -X' # e.g., would not clear man after q
 
 
